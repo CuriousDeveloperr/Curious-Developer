@@ -2,6 +2,8 @@ import React from 'react';
 
 import Navbar from './view/Navbar/Navbar';
 
+import LandingPage from './view/LandingPage/LandingPage';
+
 function App() {
   return (
     <div className="App">
@@ -9,9 +11,8 @@ function App() {
         <Navbar />
       </header>
 
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-      </h1>
+    <LandingPage />
+     
     </div>
   );
 }

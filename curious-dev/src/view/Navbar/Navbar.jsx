@@ -3,62 +3,70 @@ import React from 'react';
 export default function Navbar() {
     return(
         <div>
-            <nav className="
-            relative
-            w-full
-            flex flex-wrap
-            items-center
-            justify-between
-            py-4
-            bg-gray-100
-            text-gray-500
-            hover:text-gray-700
-            focus:text-gray-700
-            shadow-lg
-            navbar navbar-expand-lg navbar-light
-            ">
+            <header>
+                <nav className="
+                relative
+                w-full
+                flex flex-wrap
+                items-center
+                justify-between
+                py-4
+                bg-gray-100
+                text-gray-500
+                hover:text-gray-700
+                focus:text-gray-700
+                shadow-lg
+                navbar navbar-expand-lg navbar-light
+                ">
 
-            <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
-                <button className="
-                    navbar-toggler
-                    text-gray-500
-                    border-0
-                    hover:shadow-none hover:no-underline
-                    py-2
-                    px-2.5
-                    bg-transparent
-                    focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
-                " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
-                    className="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="currentColor"
-                        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-                         </path>
-                    </svg>
-                </button>
+                    <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+                        <button className="
+                            navbar-toggler
+                            text-gray-500
+                            border-0
+                            hover:shadow-none hover:no-underline
+                            py-2
+                            px-2.5
+                            bg-transparent
+                            focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+                        " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                            className="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </button>
 
-                <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-                    <a className="text-xl text-black" href="#">Curious Developer</a>
-                
-                    <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
-                        <li className="nav-item px-2">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li className="nav-item pr-2">
-                            <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">Guides</a>
-                        </li>
-                        <li className="nav-item pr-2">
-                            <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">About</a>
-                        </li>
+                        <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+                            <a className="text-xl text-black" href="#">Curious Developer</a>
                         
-                    </ul>
-                
-                </div>
-            
-            </div>
+                            <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+                                <li className="nav-item px-2">
+                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li className="nav-item pr-2">
+                                    <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">Guides</a>
+                                </li>
+                                <li className="nav-item pr-2">
+                                    <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">About</a>
+                                </li>
+                                
+                            </ul>
+                        
+                        </div>
+                    
+                    </div>
 
-            </nav>
+                </nav>
+
+                <div class="text-center bg-gray-50 text-gray-800 py-20 px-6">
+                    <h1 class="text-5xl font-bold mt-0 mb-6">Curious Developer</h1>
+                    <h3 class="text-3xl font-bold mb-8">A Place For Any New Curious Dev</h3>
+                    <a class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Get started</a>
+                </div>
+            </header>
         </div>
 
     )
