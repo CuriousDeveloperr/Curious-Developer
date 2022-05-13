@@ -40,7 +40,7 @@ export default function Navbar() {
                         </button>
 
                         <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-                            <a className="text-xl text-black" href="#">Curious Developer</a>
+                            <a className="text-xl text-black" href="/">Curious Developer</a>
                         
                             <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
                                 <li className="nav-item px-2">
