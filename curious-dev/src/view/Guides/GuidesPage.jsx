@@ -3,9 +3,16 @@ import Sidebar from './Sidebar/Sidebar'
 
 export default function GuidesPage() {
     return(
-        <div>
-            <Sidebar />
-            Guides Page
+        <div className='flex flex-row'>
+           <Sidebar className="w-auto" />
+          
+           
+            
+
+            <p className=''>
+                Learn how to use the Curious Dev website.
+            </p>
+           
         </div>
     )
 }
