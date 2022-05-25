@@ -22,7 +22,13 @@ export default function Web3() {
 function LandingPage() {
     return(
         <div>
-            Landing Page Component
+            <p className='uppercase text-3xl text-center p-4 underline'>Web3 Basics</p>
+
+            <div>
+                
+
+            </div>
+
         </div>
     )
 }
