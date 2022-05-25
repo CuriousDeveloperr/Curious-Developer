@@ -4,7 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 import Navbar from './view/Navbar/Navbar';
 
 import LandingPage from './view/LandingPage/LandingPage';
-import GuidesPage from './view/Guides/GuidesPage';
+import Web3 from './view/Guides/Web3_LandingPage';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
     <Routes>
       <Route path="/" element={<LandingPage/>}/>
-      <Route path="/guides" element={<GuidesPage />} />
+      <Route path="/Web3" element={<Web3 />} />
     </Routes>
     </div>
   );

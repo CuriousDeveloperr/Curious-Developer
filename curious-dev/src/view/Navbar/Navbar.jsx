@@ -47,10 +47,10 @@ export default function Navbar() {
                                     <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
                                 </li>
                                 <li className="nav-item pr-2">
-                                    <Link to="/guides" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Guides</Link>
+                                    <Link to="/Web3" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Web3</Link>
                                 </li>
                                 <li className="nav-item pr-2">
-                                    <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">About</a>
+                                    <Link to="/About" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >About</Link>
                                 </li>
                                 
                             </ul>
