@@ -44,10 +44,13 @@ export default function Navbar() {
                         
                             <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
                                 <li className="nav-item px-2">
-                                    <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
+                                    <Link to="/guides" className="nav-link active" aria-current="page" >Guides</Link>
                                 </li>
                                 <li className="nav-item pr-2">
-                                    <Link to="/Web3" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Web3</Link>
+                                    <Link to="guides/tailWindCss" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >TailWindCss</Link>
+                                </li>
+                                <li className="nav-item pr-2">
+                                    <Link to="/guides/web3" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Web3</Link>
                                 </li>
                                 <li className="nav-item pr-2">
                                     <Link to="/About" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >About</Link>
