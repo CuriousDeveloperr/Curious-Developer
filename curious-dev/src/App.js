@@ -1,5 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
+import Footer from './view/Footer/Footer';
 
 import Navbar from './view/Navbar/Navbar';
 
@@ -10,10 +11,10 @@ import TailWindLandingPage from './view/Guides/TailWindCss/TailWindLanding';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col h-screen justify-between">
       <Navbar />
 
-    <div className="container mx-auto">
+    <div className="container mx-auto h-full">
       <Routes>
         <Route path="/*" element={<LandingPage/>}/>
         <Route path='/guides' element={<GuidesLandingPage />} />
@@ -22,7 +23,8 @@ function App() {
         <Route path="/guides/tailwindcss" element={<TailWindLandingPage />} />
       </Routes>
     </div>
-    
+
+      <Footer />
     </div>
   );
 }
