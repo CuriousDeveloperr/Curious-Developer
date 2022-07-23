@@ -1,10 +1,15 @@
 export default function OpenSource() {
     return(
-        <div className="my-4 w-9/12 mx-auto text-2xl p-3 text-left space-y-10">
-            <p>Curious Developer is a Non Profit Open Source Project that enables developers to discover and construct Web3 ideas.</p>
+        <div className=" my-4 mx-4 text-left">
             
-            <p>Whether you're an experienced programmer or a beginner, we try to deliver resources at every level! We believe Web3 is the future!</p>
-            
+            <span className="text-xl text-gray-400 underline underline-offset-4">
+                <p>
+                    Our Mission:
+                </p> 
+            </span> 
+            <p className="text-lg font-light">    
+                The curious developer platform is a place to help developers stay up to date with the latest technologies and for those who are looking for some guidance 
+            </p>
         </div>
     )
 }

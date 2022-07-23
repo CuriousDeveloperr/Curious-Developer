@@ -46,7 +46,7 @@ export default function Navbar() {
                                 <li className="nav-item px-2">
                                     <Link to="/guides" className="nav-link active" aria-current="page" >Guides</Link>
                                 </li>
-                                <li className="nav-item pr-2">
+                                {/* <li className="nav-item pr-2">
                                     <Link to="guides/tailWindCss" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >TailWindCss</Link>
                                 </li>
                                 <li className="nav-item pr-2">
@@ -54,7 +54,7 @@ export default function Navbar() {
                                 </li>
                                 <li className="nav-item pr-2">
                                     <Link to="/About" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >About</Link>
-                                </li>
+                                </li> */}
                                 
                             </ul>
                         

@@ -12,13 +12,17 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-    <Routes>
-      <Route path="/*" element={<LandingPage/>}/>
-      <Route path='/guides' element={<GuidesLandingPage />} />
-      
-      <Route path="/guides/web3" element={<Web3 />} />
-      <Route path="/guides/tailwindcss" element={<TailWindLandingPage />} />
-    </Routes>
+
+    <div className="container mx-auto">
+      <Routes>
+        <Route path="/*" element={<LandingPage/>}/>
+        <Route path='/guides' element={<GuidesLandingPage />} />
+
+        <Route path="/guides/web3" element={<Web3 />} />
+        <Route path="/guides/tailwindcss" element={<TailWindLandingPage />} />
+      </Routes>
+    </div>
+    
     </div>
   );
 }
