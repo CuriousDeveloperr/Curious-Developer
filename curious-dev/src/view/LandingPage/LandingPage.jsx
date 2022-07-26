@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 
 export default function LandingPage(){
     return(
-        <div className="flex flex-col h-screen justify-evenly">
+        <div className="flex flex-col h-screen justify-evenly lg:container">
             <Header />
             
             <OpenSource />

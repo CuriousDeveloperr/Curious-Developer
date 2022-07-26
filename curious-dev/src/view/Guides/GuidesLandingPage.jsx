@@ -1,16 +1,28 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
+import Sidebar from './Sidebar/Sidebar'
 
 export default function GuidesLandingPage() {
+
+    const hidden = () => {
+        document.querySelector(".sidebar").classList.toggle("hidden");
+    }
+
+
     return(
-        <div>
-            Guides page
+        <div className="bg-blue-100 w-auto">
+
+            <div className="flex flex-row justify-around w-4/12 bg-blue-500">
+                <div className="sidebar w-auto bg-gray-100" >
+                    Side bar
+                </div>
+
+                <p onClick={hidden} className="hover:animate-bounce">
+                 Show sidebar
+                </p>
+            </div>
             
-            <ul>
-                <li className="nav-item pr-2">
-                    <Link to="/guides/web3" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Web3</Link>
-                </li>
-            </ul>
+             
         </div>
     )
 }

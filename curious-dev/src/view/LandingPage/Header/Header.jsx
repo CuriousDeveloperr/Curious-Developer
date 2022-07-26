@@ -4,7 +4,7 @@ export default function Header() {
     return(
            <header>
                 
-                <div className="text-center bg-gray-50 text-gray-800 py-10 h-auto px-6 h-full ">
+                <div className="text-center bg-gray-50 text-gray-800 py-10 h-auto px-6 h-full">
 
                     <div className="mb-10">
                         <h1 className="text-4xl font-bold md:text-5xl ">Curious Developer</h1>

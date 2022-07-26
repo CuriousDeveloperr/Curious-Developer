@@ -1,6 +1,6 @@
 export default function OpenSource() {
     return(
-        <div className="h-full my-4 mx-4 md:mx-0 text-left">
+        <div className="h-full my-4 mx-4 md:mx-0 text-left px-10">
             
             <span className="text-xl text-gray-400 underline underline-offset-4">
                 <p>

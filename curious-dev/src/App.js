@@ -14,7 +14,7 @@ function App() {
     <div className="flex flex-col h-screen justify-between">
       <Navbar />
 
-    <div className="container mx-auto h-full">
+    <div className="mx-auto h-full w-full">
       <Routes>
         <Route path="/*" element={<LandingPage/>}/>
         <Route path='/guides' element={<GuidesLandingPage />} />
