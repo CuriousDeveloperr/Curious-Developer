@@ -5,10 +5,11 @@ import Footer from '../Footer/Footer';
 
 export default function LandingPage(){
     return(
-        <div className="flex flex-col h-screen justify-evenly lg:container">
+        <div className="flex flex-col h-screen justify-evenly md:container md:mx-auto ">
             <Header />
             
             <OpenSource />
+
         </div>
     )
 }

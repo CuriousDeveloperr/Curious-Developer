@@ -13,9 +13,9 @@ export default function OpenSource() {
 
 
             <div className="bg-gray-100 w-fit px-3 py-2 md:my-4">
-                <p>
-                    Join community
-                </p>
+                <a href="https://github.com/CleverOscar/Curious_Dev/discussions/2" target="_blank">
+                    Join community Discussions
+                </a>
             </div>
         </div>
     )

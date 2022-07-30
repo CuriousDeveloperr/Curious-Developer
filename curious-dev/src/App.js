@@ -14,13 +14,14 @@ function App() {
     <div className="flex flex-col h-screen justify-between">
       <Navbar />
 
-    <div className="mx-auto h-full w-full">
+    <div className="h-full w-full">
       <Routes>
         <Route path="/*" element={<LandingPage/>}/>
         <Route path='/guides' element={<GuidesLandingPage />} />
 
-        <Route path="/guides/web3" element={<Web3 />} />
-        <Route path="/guides/tailwindcss" element={<TailWindLandingPage />} />
+        <Route path="/guides/intro" element={<Web3 />} />
+        <Route path="/guides/javascript" element={<TailWindLandingPage />} />
+        <Route path="/guides/git" element={<p> Git Page</p>} />
       </Routes>
     </div>
 

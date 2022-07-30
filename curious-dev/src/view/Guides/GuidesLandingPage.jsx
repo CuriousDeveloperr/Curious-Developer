@@ -4,25 +4,32 @@ import Sidebar from './Sidebar/Sidebar'
 
 export default function GuidesLandingPage() {
 
-    const hidden = () => {
-        document.querySelector(".sidebar").classList.toggle("hidden");
-    }
-
 
     return(
-        <div className="bg-blue-100 w-auto">
-
-            <div className="flex flex-row justify-around w-4/12 bg-blue-500">
-                <div className="sidebar w-auto bg-gray-100" >
-                    Side bar
-                </div>
-
-                <p onClick={hidden} className="hover:animate-bounce">
-                 Show sidebar
-                </p>
-            </div>
-            
-             
+       <div className="w-60 h-full shadow-md bg-white px-1">
+            <ul className="relative px-6">
+                <li className="w-auto">
+                    <p className="flex items-center text-sm py-4  h-12 text-gray-700 text-ellipsis whitespace-nowrap ">
+                        Getting Started
+                    </p>
+                    
+                    <div>
+                        <Link to="intro" className="nav-link active" aria-current="page" > HTML / CSS </Link>
+                    </div>
+                    <div>
+                        <Link to="javascript" className="nav-link active" aria-current="page" > DOM / Javascript </Link>
+                    </div>
+                    <div>
+                        <Link to="git" className="nav-link active" aria-current="page" > Git / Github </Link>
+                    </div>
+                </li>
+                <li className="relative">
+                    <p className = "flex items-center text-sm py-4 h-12 text-gray-700 text-ellipsis whitespace-nowrap " >  Topics </p>
+                </li>
+                <li className="relative">
+                    <p className = "flex items-center text-sm py-4 h-12 text-gray-700 text-ellipsis whitespace-nowrap " >  Begginer Guides </p>
+                </li>
+            </ul>
         </div>
     )
 }
