@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/CuriousDeveloperr/Curious-Developer">
-    <img src="https://ibb.co/vxV2sg0" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/99cRwzQ/Screen-Shot-2022-07-29-at-11-20-57-PM.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Curious Developer</h3>
