@@ -81,42 +81,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [TailWindCSS](https://tailwindcss.com/)
 * [TailWindCSS-Elements](https://tailwindcss.com/)
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get started make sure you have already cloned the reposiroty onto your machine and have a console up and ready to install our dependencies.
-
-### Prerequisites
-
-In your console make sure you `cd` into the `curious-dev` folder, then enter the following command to install the dependencies needed.
-
-* npm
-  ```sh
-  npm install 
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/CuriousDeveloperr/Curious-Developer.git
-   ```
-2. CD into Directory
-    ```sh
-    cd curious-dev
-    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Start Application
-   ```sh
-   npm start
-   ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -126,8 +91,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -144,14 +107,12 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "feature-request".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
