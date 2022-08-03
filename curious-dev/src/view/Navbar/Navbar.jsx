@@ -39,12 +39,16 @@ export default function Navbar() {
                             </svg>
                         </button>
 
-                        <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+                        <div className="collapse navbar-collapse flex-grow items-center justify-between" id="navbarSupportedContent">
                             <a className="text-xl text-black" href="/">Curious Developer</a>
                         
-                            <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+                            <ul className="navbar-nav flex flex-row pl-0 list-style-none">
                                 <li className="nav-item px-2">
                                     <Link to="/guides" className="nav-link active" aria-current="page" >Guides</Link>
+                                </li>
+
+                                <li className="text-blue-200 font-black">
+                                    Support
                                 </li>
                                 {/* <li className="nav-item pr-2">
                                     <Link to="guides/tailWindCss" className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >TailWindCss</Link>
